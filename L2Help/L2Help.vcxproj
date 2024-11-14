@@ -136,6 +136,7 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AACalc.resx">
@@ -150,6 +151,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="L2Help.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\infer\Downloads\Logo (2).ico" />
+    <Image Include="E:\Models\235\Logo (2).png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -122,14 +122,14 @@ namespace L2Help {
 			// ManCalc
 			// 
 			this->ManCalc->Name = L"ManCalc";
-			this->ManCalc->Size = System::Drawing::Size(180, 22);
+			this->ManCalc->Size = System::Drawing::Size(144, 22);
 			this->ManCalc->Text = L"Калькулятор";
 			this->ManCalc->Click += gcnew System::EventHandler(this, &MainForm::калькуляторToolStripMenuItem_Click);
 			// 
 			// наградыToolStripMenuItem
 			// 
 			this->наградыToolStripMenuItem->Name = L"наградыToolStripMenuItem";
-			this->наградыToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->наградыToolStripMenuItem->Size = System::Drawing::Size(144, 22);
 			this->наградыToolStripMenuItem->Text = L"Награды";
 			// 
 			// рынокПредметовToolStripMenuItem

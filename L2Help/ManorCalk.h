@@ -290,11 +290,14 @@ namespace L2Help {
 			this->Cord->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Cord.BackgroundImage")));
 			this->Cord->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->Cord->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->Cord->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->Cord->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->Cord->ForeColor = System::Drawing::SystemColors::HighlightText;
 			this->Cord->Location = System::Drawing::Point(575, 89);
 			this->Cord->Name = L"Cord";
 			this->Cord->Size = System::Drawing::Size(50, 50);
 			this->Cord->TabIndex = 9;
+			this->Cord->Text = L"Cord";
 			this->Cord->UseVisualStyleBackColor = true;
 			this->Cord->Click += gcnew System::EventHandler(this, &ManorCalk::Cord_Click);
 			// 
@@ -537,11 +540,14 @@ namespace L2Help {
 			this->Varnish->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Varnish.BackgroundImage")));
 			this->Varnish->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->Varnish->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->Varnish->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->Varnish->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->Varnish->ForeColor = System::Drawing::Color::White;
 			this->Varnish->Location = System::Drawing::Point(407, 22);
 			this->Varnish->Name = L"Varnish";
 			this->Varnish->Size = System::Drawing::Size(50, 50);
 			this->Varnish->TabIndex = 31;
+			this->Varnish->Text = L"Varn";
 			this->Varnish->UseVisualStyleBackColor = true;
 			this->Varnish->Click += gcnew System::EventHandler(this, &ManorCalk::Varnish_Click);
 			// 
